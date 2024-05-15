@@ -1,8 +1,7 @@
 // AboutUs.js
-
 import React from 'react';
 import about from '../images/about.png';
-import { FaArrowLeft, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+// import { FaArrowLeft, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import man1 from '../images/man1.png';
 import man2 from '../images/man2.png';
