@@ -10,7 +10,6 @@ function Home() {
         <div className="home" >
             <img style={{ width: "100%", }} src={images} />
         </div>
-        <Features />
         <StepIndicator />
         <Footer />
 

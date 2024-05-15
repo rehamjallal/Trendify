@@ -10,7 +10,7 @@ import { FaGithub } from "react-icons/fa";
 
 function Footer() {
     return (
-        <MDBFooter bgColor='info' color='light' className='foot text-center text-lg-start text-muted' fixed='bottom'>
+        <MDBFooter style={{backgroundColor:'black'}} color='light' className='foot text-center text-lg-start text-muted' fixed='bottom'>
             <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
                 <div className='me-5 d-none d-lg-block'>
                     <span style={{ color: "#ffffff", fontSize: '1.5rem', cursor: "pointer" }}>Get connected with us on social networks:</span>

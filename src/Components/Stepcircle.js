@@ -4,6 +4,22 @@ function StepIndicator() {
     return (
         <>
             <h3 className="steps" >4 simple steps of picking the order</h3>
+            <div className="smallCards">
+                <div className="smallCard">
+                    <p ><h4>Product Retrieval:</h4>Gather ordered items from their respective storage areas, ensuring their quality and quantity.</p>
+                </div>
+                <div className="smallCard">
+                    <p ><h4>Quality Check:</h4>Verify the condition and quality of each item to meet customer expectations.</p>
+                </div>
+                <div className="smallCard">
+
+                    <p><h4>Packaging and Presentation:</h4>Carefully package items with appropriate materials, adding any branding or promotional material as requi</p>
+                </div>
+                <div className="smallCard">
+                    <h4>Shipping and Logistics:</h4>Generate shipping labels, select the optimal shipping method, and hand over packages to the carrier for efficient delivery.
+                </div>
+            </div>
+
             <div className="stepCircle">
                 <div className="container">
                     <div className="circle">
@@ -21,13 +37,8 @@ function StepIndicator() {
                     <div className="circle">
                         <div className="number">4</div>
                         <p className="text4">
-                        <h4>Shipping and Logistics:</h4>Generate shipping labels, select the optimal shipping method, and hand over packages to the carrier for efficient delivery.
-
-
-
-
-
-</p>
+                            <h4>Shipping and Logistics:</h4>Generate shipping labels, select the optimal shipping method, and hand over packages to the carrier for efficient delivery.
+                        </p>
                     </div>
                     <div className="arrow">
                         <div className="arrow-body"></div>

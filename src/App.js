@@ -1,4 +1,3 @@
-import './App.css';
 import { Routes, Route, } from "react-router-dom";
 import Home from './Components/Home';
 import Contact from './Components/Contact';
@@ -14,7 +13,6 @@ import Features from './Components/Features';
 function App() {
   return (
     <>
-
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/women' element={<Women />} />
@@ -25,11 +23,9 @@ function App() {
         <Route path='/Store' element={<Store />} />
         <Route path='/About' element={<About />} />
         <Route path='/features' element={<Features />} />
-
         <Route path='/contact' element={<Contact />} />
         <Route path='/footer' element={<Footer />} />
-
-      </Routes>
-    </>);
-}
+      </Routes></>
+  )
+};
 export default App;
