@@ -10,7 +10,6 @@ import Card from 'react-bootstrap/Card';
 import CurrencyFormatter from './CurrencyFormatter';
 import Button from 'react-bootstrap/Button';
 import AppNavbar from './Navbar';
-import About from './About';
 function Store() {
     const products = useSelector((state) => state.products);
     const dispatch = useDispatch();

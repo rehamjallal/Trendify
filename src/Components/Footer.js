@@ -10,28 +10,28 @@ import { FaGithub } from "react-icons/fa";
 
 function Footer() {
     return (
-        <MDBFooter style={{backgroundColor:'black'}} color='light' className='foot text-center text-lg-start text-muted' fixed='bottom'>
+        <MDBFooter style={{ backgroundColor: 'black' }} color='light' className='foot text-center text-lg-start text-muted' fixed='bottom'>
             <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
                 <div className='me-5 d-none d-lg-block'>
                     <span style={{ color: "#ffffff", fontSize: '1.5rem', cursor: "pointer" }}>Get connected with us on social networks:</span>
                 </div>
                 <div>
-                    <a href='' className='me-4 text-reset' >
+                    <a className='me-4 text-reset' >
                         <CiFacebook className='footIcons' />
                     </a>
-                    <a href='' className='me-4 text-reset'>
+                    <a className='me-4 text-reset'>
                         <FaXTwitter className='footIcons' />
                     </a>
-                    <a href='' className='me-4 text-reset'>
+                    <a className='me-4 text-reset'>
                         <FaGoogle className='footIcons' />
                     </a>
-                    <a href='' className='me-4 text-reset'>
+                    <a className='me-4 text-reset'>
                         <FaInstagram className='footIcons' />
                     </a>
-                    <a href='' className='me-4 text-reset'>
+                    <a className='me-4 text-reset'>
                         <FaLinkedinIn className='footIcons' />
                     </a>
-                    <a href='' className='me-4 text-reset'>
+                    <a className='me-4 text-reset'>
                         <FaGithub className='footIcons' />
 
                     </a>
@@ -52,22 +52,22 @@ function Footer() {
                         <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4 hfoot'>Products</h6>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a className='text-reset'>
                                     Women
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a className='text-reset'>
                                     Men
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a className='text-reset'>
                                     Accessories
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a className='text-reset'>
                                     Electronics
                                 </a>
                             </p>
@@ -76,22 +76,22 @@ function Footer() {
                         <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4  hfoot'>Useful links</h6>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a className='text-reset'>
                                     Pricing
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a className='text-reset'>
                                     Settings
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a className='text-reset'>
                                     Orders
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a className='text-reset'>
                                     Help
                                 </a>
                             </p>

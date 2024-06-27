@@ -2,7 +2,6 @@ import '../App.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { fetchProducts } from '../rtk/slices/productsSlices';
-import Carousel from 'react-bootstrap/Carousel';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import Navbar from "./Landing";
@@ -24,7 +23,7 @@ function Man() {
             <div className='categoryStyle'>
                 {manProducts.map((Product, index) => (
                     <div className='catContainer'>
-                        <div className='image'><img src={Product.image} /></div>
+                        <div className='image'><img src={Product.image}  alt='img'/></div>
                         <div className='catText'>
                             <h3>{Product.title}</h3>
                             <p>{Product.description}</p>

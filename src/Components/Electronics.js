@@ -1,4 +1,3 @@
-import Carousel from 'react-bootstrap/Carousel';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchProducts } from '../rtk/slices/productsSlices';
 import { useEffect } from 'react';

@@ -1,15 +1,12 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, Container, Nav, NavDropdown, Form, Button, Offcanvas } from 'react-bootstrap';
+import { Navbar, Container, Nav,Form, Button, Offcanvas } from 'react-bootstrap';
 import { MdOutlineShoppingCart } from 'react-icons/md';
-import { useSelector, useDispatch } from 'react-redux';
-import { setShowCart } from '../rtk/slices/cartslices';
+import { useSelector } from 'react-redux';
 import Car from './Car';
 
 function APPnavbar() {
   const cart = useSelector((state) => state.cart.products);
-  const dispatch = useDispatch();
 
   const [show, setShow] = useState(false);
 
@@ -22,7 +19,7 @@ function APPnavbar() {
     <>
       <Navbar expand="lg" className="head" fixed='top' style={{marginBottom:'40rem'}}>
         <Container fluid className='storeContainer'>
-          <Navbar.Brand href="#">
+          <Navbar.Brand >
             <div className='logo'>
               <p className='logoText'><span className='tLetter' >T</span>rendify</p>
             </div>
@@ -30,8 +27,8 @@ function APPnavbar() {
           <Navbar.Toggle aria-controls="navbarScroll" className='navbarScroll'  style={{backgroundColor:'#ffffff'}} />
           <Navbar.Collapse  id="navbarScroll">
             <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '150px' }} navbarScroll>
-              <Link to={'/contact'} href="#action1" className='navLink' style={{ color: '#ffffff',textDecoration:'none', fontSize: '1.2rem', margin: '1rem 1rem' }}><span className='linkSpan'>ContactUs </span></Link>
-              <Link to={'/'} href="#action1" className='navLink' style={{ color: '#ffffff',textDecoration:'none', fontSize: '1.2rem', margin: '1rem 1rem' }}><span  className='linkSpan' >Home</span></Link>
+              <Link to={'/contact'} className='navLink' style={{ color: '#ffffff',textDecoration:'none', fontSize: '1.2rem', margin: '1rem 1rem' }}><span className='linkSpan'>ContactUs </span></Link>
+              <Link to={'/'} className='navLink' style={{ color: '#ffffff',textDecoration:'none', fontSize: '1.2rem', margin: '1rem 1rem' }}><span  className='linkSpan' >Home</span></Link>
             </Nav>
             <Form className="d-flex car">
               <Button variant="primary" className='navIcon' onClick={handleShow} style={{ border: 'none', outline: 'none', background: 'none', color: '#ffffff' }}>

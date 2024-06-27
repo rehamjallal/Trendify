@@ -24,7 +24,7 @@ function Women() {
             <div className='categoryStyle'>
                 {womanProducts.map((Product, index) => (
                     <div className='catContainer'>
-                        <div className='image'><img src={Product.image} /></div>
+                        <div className='image'><img src={Product.image}  alt='img'/></div>
                         <div className='catText'>
                             <h3>{Product.title}</h3>
                             <p>{Product.description}</p>

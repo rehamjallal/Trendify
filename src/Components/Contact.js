@@ -6,7 +6,7 @@ function Contact() {
     return (
         <>
             <div className="section-wrapper contact">
-                <Navbar.Brand href="#">
+                <Navbar.Brand>
                     <div className='logo'>
                         <p className='logoText'><span className='tLetter' >T</span>rendify</p>
                     </div>

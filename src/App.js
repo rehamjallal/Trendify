@@ -7,7 +7,7 @@ import Man from './Components/ManClothes';
 import Accessories from './Components/Accessories';
 import Electronics from './Components/Electronics';
 import Sign from './Components/Sign up';
-import About from './Components/About';
+// import About from './Components/About';
 import Footer from './Components/Footer';
 import Features from './Components/Features';
 function App() {
@@ -21,11 +21,10 @@ function App() {
         <Route path='/electronics' element={<Electronics />} />
         <Route path='/Sign' element={<Sign />} />
         <Route path='/Store' element={<Store />} />
-        <Route path='/About' element={<About />} />
+        {/* <Route path='/About' element={<About />} /> */}
         <Route path='/features' element={<Features />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/footer' element={<Footer />} />
       </Routes></>
-  )
-};
+)}
 export default App;

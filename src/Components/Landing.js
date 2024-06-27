@@ -6,7 +6,6 @@ import Shopping from '../images/Shopping.png';
 import { AiOutlineUser } from "react-icons/ai";
 import { FaStore } from "react-icons/fa6";
 import { FaArrowUp } from "react-icons/fa";
-
 import Dropdown from './Dropdown';
 
 
@@ -35,6 +34,7 @@ function Landing() {
 
     return (
         <>
+
             <div className='navbarContent'>
                 <div className='container'>
                     <div className='search'><Dropdown /></div>
@@ -50,7 +50,6 @@ function Landing() {
             </div>
             <div className='links' style={{ display: 'flex', textAlign: "center", justifyContent: "center", padding: "40px 0" }}>
                 <Link to={'/'}><p style={{ paddingTop: '10px' }}>Home</p></Link>
-                <Link to={"/About"}><p style={{ paddingTop: '10px' }} >About US</p></Link>
                 <Link to={"/features"}><p style={{ paddingTop: '10px' }} >Features</p></Link>
                 <Link to={"/contact"}><p style={{ paddingTop: '10px' }} >Contact us</p></Link>
             </div>

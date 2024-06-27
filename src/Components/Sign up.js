@@ -1,11 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Shopping from '../images/Shopping.png';
 import { CiFacebook } from "react-icons/ci";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGoogle } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaArrowLeft } from "react-icons/fa6";
 
 import {
     MDBBtn,
@@ -16,7 +14,6 @@ import {
     MDBCardBody,
     MDBInput,
     MDBCheckbox,
-    MDBIcon
 }
     from 'mdb-react-ui-kit';
 
