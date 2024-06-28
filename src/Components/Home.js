@@ -10,6 +10,7 @@ function Home() {
         </div>
         <StepIndicator />
         <Footer />
+        <h1>rooma sallwwwwwwwwwwww</h1>
 
     </>)
 }
