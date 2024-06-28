@@ -120,7 +120,7 @@ function Footer() {
             <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
                 © 2024 Copyright:
                 <a href='/home' className='text-reset fw-bold'>
-                    Rehame Galal
+                    Trendify
                 </a>
             </div>
         </MDBFooter>

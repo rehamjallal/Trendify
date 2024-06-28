@@ -10,7 +10,6 @@ function Home() {
         </div>
         <StepIndicator />
         <Footer />
-
     </>)
 }
 export default Home;
