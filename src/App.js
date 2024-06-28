@@ -7,7 +7,6 @@ import Man from './Components/ManClothes';
 import Accessories from './Components/Accessories';
 import Electronics from './Components/Electronics';
 import Sign from './Components/Sign up';
-// import About from './Components/About';
 import Footer from './Components/Footer';
 import Features from './Components/Features';
 function App() {

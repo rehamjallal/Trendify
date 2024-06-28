@@ -16,24 +16,23 @@ function Footer() {
                     <span style={{ color: "#ffffff", fontSize: '1.5rem', cursor: "pointer" }}>Get connected with us on social networks:</span>
                 </div>
                 <div>
-                    <a className='me-4 text-reset' >
+                    <a href='https://www.facebook.com/' className='me-4 text-reset' >
                         <CiFacebook className='footIcons' />
                     </a>
-                    <a className='me-4 text-reset'>
+                    <a href='https://www.Twitter.com/' className='me-4 text-reset'>
                         <FaXTwitter className='footIcons' />
                     </a>
-                    <a className='me-4 text-reset'>
+                    <a href='https://www.Google.com/' c className='me-4 text-reset'>
                         <FaGoogle className='footIcons' />
                     </a>
-                    <a className='me-4 text-reset'>
+                    <a href='https://www.Instagram.com/' className='me-4 text-reset'>
                         <FaInstagram className='footIcons' />
                     </a>
-                    <a className='me-4 text-reset'>
+                    <a href='https://www.LinkedinIn .com/' className='me-4 text-reset'>
                         <FaLinkedinIn className='footIcons' />
                     </a>
-                    <a className='me-4 text-reset'>
+                    <a href='https://www.Github.com/' className='me-4 text-reset'>
                         <FaGithub className='footIcons' />
-
                     </a>
                 </div>
             </section>
@@ -52,22 +51,22 @@ function Footer() {
                         <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4 hfoot'>Products</h6>
                             <p>
-                                <a className='text-reset'>
+                                <a href='/home' className='text-reset'>
                                     Women
                                 </a>
                             </p>
                             <p>
-                                <a className='text-reset'>
+                                <a href='/home' className='text-reset'>
                                     Men
                                 </a>
                             </p>
                             <p>
-                                <a className='text-reset'>
+                                <a href='/home' className='text-reset'>
                                     Accessories
                                 </a>
                             </p>
                             <p>
-                                <a className='text-reset'>
+                                <a href='/home' className='text-reset'>
                                     Electronics
                                 </a>
                             </p>
@@ -76,22 +75,22 @@ function Footer() {
                         <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4  hfoot'>Useful links</h6>
                             <p>
-                                <a className='text-reset'>
+                                <a href='/home'  className='text-reset'>
                                     Pricing
                                 </a>
                             </p>
                             <p>
-                                <a className='text-reset'>
+                                <a href='/home'   className='text-reset'>
                                     Settings
                                 </a>
                             </p>
                             <p>
-                                <a className='text-reset'>
+                                <a href='/home'  className='text-reset'>
                                     Orders
                                 </a>
                             </p>
                             <p>
-                                <a className='text-reset'>
+                                <a  href='/home' className='text-reset'>
                                     Help
                                 </a>
                             </p>
@@ -120,7 +119,7 @@ function Footer() {
 
             <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
                 © 2024 Copyright:
-                <a className='text-reset fw-bold'>
+                <a href='/home' className='text-reset fw-bold'>
                     Rehame Galal
                 </a>
             </div>

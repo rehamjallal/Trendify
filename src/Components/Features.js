@@ -13,7 +13,7 @@ function Features() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className='col-md-6 mb-4'>
-                            <motion.img 
+                            <img 
                                 src={family} 
                                 alt="Family" 
                                 className="img-fluid featureImg"
